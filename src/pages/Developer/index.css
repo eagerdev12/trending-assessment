@@ -1,0 +1,121 @@
+.dev .header .sort {
+    color: white;
+    display: flex;
+    border-radius: 6px;
+}
+.dev {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    margin-top: 50px;
+}
+.dev .header {
+    padding: 16px;
+    background: #161b22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #30363d;
+}
+
+.dev .header .sort > a:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 5px 16px;
+    color: unset;
+    text-decoration: none;
+}
+.dev .header .sort > a:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 5px 16px;
+    border: 1px solid #30363d;
+    color: unset;
+    text-decoration: none;
+}
+.dev .header .option {
+    color: #8b949e;
+    display: flex;
+    font-size: 13px;
+}
+.dev .header .option >div:hover {
+    color: white;
+    cursor: pointer;
+}
+.dev .header .option > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.dev .header .option > div i {
+    padding-left: 5px;
+}
+.dev .content .item {
+    color: #8b949e;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #30363d;
+}
+.dev .content .item img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: 0px 10px 0px 20px;
+}
+.dev .content .item > div {
+    display: flex;
+}
+.dev .content .item p {
+    margin: 0px;
+}
+.dev .content .item .att img {
+    width: 23px;
+    height: 23px;
+    margin: 0px;
+}
+.dev .content .item .att {
+    display: flex;
+    flex-direction: column;
+}
+.dev .content .item .att > div {
+    display: flex;
+    align-items: center;
+}
+.dev .content .item .dev-name {
+    text-align: left;
+}
+.dev .content .item .dev-name p:first-child {
+    font-size: 18px;
+    color: #58a6ff;
+    font-weight: bold;
+}
+.dev .content .item .att > p {
+    font-size: 12px;
+}
+.dev .content .item .att > div:first-child p {
+    font-size: 13px;
+}
+.dev .content .item .att > div:nth-child(2) p {
+   color: #58a6ff;
+}
+.dev .content .item > div:last-child > div {
+    display: flex;
+    background: #21262d;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: white;
+    align-items: center;
+}
+.dev .content .item > div:last-child > div i {
+    margin-right: 10px;
+    color: #db61a2;
+    font-size: 15px;
+}
